@@ -1,0 +1,69 @@
+<!--
+ **************************
+     * Space Invaders *
+ **************************
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+   <head>
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Space Invaders</title>
+
+     <!-- Link to CSS -->
+     <link rel="stylesheet" href="styles.css">
+
+     <!-- Link to JavaScript -->
+     <script defer type="text/javascript" src="script.js"></script>
+   </head>
+   <body>
+
+     <div class="fullGame">
+
+       <div class="stateOfgame">
+         <div class="gameTittle">
+           <h1>Space Invaders</h1>
+         </div>
+       <!-- State of the game -->
+        <div class="gameScorediv">
+          <p><b class="playerScore"></b></p>
+        </div>
+       </div>
+
+     <!-- Game Screen -->
+     <div class="canvas">
+
+       <div class='win'><p>YOU WIN!</p></div>
+     <!-- Enemies Div -->
+     <div class="enemies"></div>
+
+     <!-- Player Bullets -->
+
+     <!--  Player Spaceship -->
+     <div class="player" id="player"></div>
+
+     </div>
+     <!-- End of Canvas (Game Screen) -->
+
+     <!-- Game Controlers -->
+     <div class="gameControlers">
+       <div class="restart">
+         <div class="restartButton">
+           <button class="playAgainButton" title="Restart this game">Press R or Click here to Play Again!</button>
+         </div>
+       </div>
+       <div class="left">
+         &#8592;
+       </div>
+       <div class="up">
+         &#8593;
+       </div>
+       <div class="right">
+         &#8594;
+       </div>
+     </div>
+     </div>
+
+   </body>
+ </html>
